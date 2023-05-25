@@ -1,0 +1,23 @@
+`ifndef __PANGO_VH
+`define __PANGO_VH 1
+
+`define SIG_XIL_TX_TUSER_W 4
+`define SIG_XIL_RX_TUSER_W 22
+
+`define SIG_FC_SEL_W 3 // Pango specific
+
+`define SIG_FC_SEL_RX_BUF_AVAIL_V 3'b000
+`define SIG_FC_SEL_RX_MAXALLOC_V 3'b001
+`define SIG_FC_SEL_RX_CONSUMED_V 3'b010
+`define SIG_FC_SEL_TX_CRED_AVAIL_V 3'b100
+`define SIG_FC_SEL_TX_MAXALLOC_V 3'b101
+`define SIG_FC_SEL_TX_CONSUMED_V 3'b110
+
+`define CFG_COMMAND_BUSMSTR_R 2
+`define CFG_LSTATUS_LWIDTH_R 9:4
+`define CFG_LSTATUS_LRATE_R 3:0
+`define CFG_DCOMMAND_MAXREQ_R 14:12
+`define CFG_DCOMMAND_MAXPAY_R 7:5
+`define CFG_LCOMMAND_RCB_R 3
+
+`endif
