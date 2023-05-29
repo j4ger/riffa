@@ -10,10 +10,10 @@ module pcie_top (
     input ref_clk_p,
 
     //diff signals
-    input       [3:0] rxn,
-    input       [3:0] rxp,
-    output wire [3:0] txn,
-    output wire [3:0] txp
+    input       [1:0] rxn,
+    input       [1:0] rxp,
+    output wire [1:0] txn,
+    output wire [1:0] txp
 
 
 );
