@@ -46,7 +46,7 @@ module pcie_top (
 
   riffa_pango #(
       .C_NUM_CHNL(1),
-      .C_PCI_DATA_WIDTH(1)
+      .C_PCI_DATA_WIDTH(128)
   ) riffa_inst (
       .USER_CLK  (clock),
       .USER_RESET(reset),
